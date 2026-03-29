@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Shrutika There — Electronics & Telecommunication Engineering Student | Embedded Systems | IoT | PCB Design Portfolio" />
+  <title>Shrutika | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&family=Syne:wght@700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- ═══════════ FLOATING GREETING (Chat-style) ═══════════ -->
+<div id="floatingGreet" class="floating-greet" role="complementary" aria-live="polite">
+  <div class="floating-greet-header">
+    <div class="floating-greet-avatar">
+      <img src="assets/profile1.png" alt="Shrutika" />
+    </div>
+    <div class="floating-greet-info">
+      <span class="floating-greet-name">Shrutika</span>
+      <span class="floating-greet-status"><span class="status-dot"></span> Online</span>
+    </div>
+    <button id="floatingGreetClose" class="floating-greet-close" aria-label="Close greeting">
+      <i class="fas fa-times"></i>
+    </button>
+  </div>
+  <div class="floating-greet-bubble">
+    <p>Hello there 👋 Welcome to my portfolio. Feel free to explore!</p>
+  </div>
+</div>
+
+<!-- ═══════════ HEADER / NAV ═══════════ -->
+<header class="site-header" id="top">
+  <div class="container header-inner">
+    <a href="#home" class="brand">Shrutika</a>
+
+    <nav class="nav" aria-label="Primary">
+      <ul class="nav__list">
+        <li><a href="#home"       class="nav__link active">Home</a></li>
+        <li><a href="#about"      class="nav__link">About</a></li>
+        <li><a href="#skills"     class="nav__link">Skills</a></li>
+        <li><a href="#projects"   class="nav__link">Projects</a></li>
+        <li><a href="#experience" class="nav__link">Experience</a></li>
+        <li><a href="#education"  class="nav__link">Education</a></li>
+        <li><a href="#contact"    class="nav__link">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="header-controls">
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span class="hamburger"></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+
+<!-- ═══════════ HERO SECTION ═══════════ -->
+<section id="home" class="hero-section">
+  <div class="hero-bg-dots"></div>
+  <div class="container">
+    <div class="hero-inner">
+
+      <!-- Profile Picture (LEFT) -->
+      <div class="hero-avatar-wrap">
+        <div class="hero-avatar-glow"></div>
+        <div class="hero-avatar-ring">
+          <div class="hero-avatar-ring2">
+            <div class="hero-avatar-img">
+              <img src="assets/profile1.png" alt="Shrutika There" />
+            </div>
+          </div>
+        </div>
+        <div class="hero-badge hero-badge--tl">
+          <i class="fas fa-microchip"></i> Embedded
+        </div>
+        <div class="hero-badge hero-badge--br">
+          <i class="fas fa-print"></i> PCB Design
+        </div>
+      </div>
+
+      <!-- Text Content (RIGHT) -->
+      <div class="hero-content">
+        <span class="hero-greeting">Hello, I'm</span>
+        <h1 class="hero-name">
+          <span class="hero-first">Shrutika</span>
+          <span class="hero-last">There</span>
+        </h1>
+        <p class="hero-caption">
+          Embedded System Designer &amp; Programmer &nbsp;|&nbsp; PCB Designer &nbsp;|&nbsp;
+          Analog &amp; Digital Electronics &nbsp;|&nbsp; Control System &amp; PLC &nbsp;|&nbsp; Power Electronics
+        </p>
+        <div class="hero-actions">
+          <a href="#about" class="btn-hero-primary">
+            About Me &nbsp;<i class="fas fa-arrow-down"></i>
+          </a>
+        </div>
+        <div class="hero-socials">
+          <a href="https://www.linkedin.com/in/shrutika-there-8576453b7" target="_blank" rel="noopener" class="soc-btn" title="LinkedIn" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://github.com/shrutikathere05"                   target="_blank" rel="noopener" class="soc-btn" title="GitHub"   aria-label="GitHub"><i class="fab fa-github"></i></a>
+          <a href="https://t.me/shrutikathere"                           target="_blank" rel="noopener" class="soc-btn" title="Telegram" aria-label="Telegram"><i class="fab fa-telegram-plane"></i></a>
+          <a href="https://www.instagram.com/shru.jainverse"             target="_blank" rel="noopener" class="soc-btn" title="Instagram" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="mailto:shrutikathere42@gmail.com"                                     class="soc-btn" title="Email"    aria-label="Email"><i class="fas fa-envelope"></i></a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ ABOUT SECTION ═══════════ -->
+<section id="about" class="section about-section">
+  <div class="container">
+    <header class="section-header">
+      <h2 class="sec-title">
+        <span class="sec-emoji">👤</span>
+        <span class="sec-navy">About</span>&ensp;<span class="sec-blue">Me</span>
+      </h2>
+      <div class="sec-bar"></div>
+    </header>
+
+    <div class="about-grid">
+      <div class="about-text">
+        <p class="about-name">I'm Shrutika</p>
+        <p class="about-para">I am a third-year Electronics and Telecommunication Engineering student with a strong Diploma background in Electronics Field, passionate about Embedded systems &amp; IoT. I enjoy building Arduino-based and real-time projects that strengthen my technical and problem-solving skills.</p>
+        <p class="about-para">I am always eager to learn new technologies and aim to develop innovative solutions for real-world challenges. My goal is to keep learning through projects and collaboration while building solutions that make an impact.</p>
+
+        <div class="about-info">
+          <div class="about-info-item">
+            <span class="about-info-icon"><i class="fas fa-envelope"></i></span>
+            <div>
+              <span class="about-info-label">EMAIL</span>
+              <a href="mailto:shrutikathere42@gmail.com" class="about-info-val about-info-link">shrutikathere42@gmail.com</a>
+            </div>
+          </div>
+          <div class="about-info-item">
+            <span class="about-info-icon about-info-icon--red"><i class="fas fa-map-marker-alt"></i></span>
+            <div>
+              <span class="about-info-label">LOCATION</span>
+              <span class="about-info-val">Nagpur, Maharashtra</span>
+            </div>
+          </div>
+        </div>
+
+        <a href="https://drive.google.com/file/d/1KdpZo1Tscgckzn90B2h21hB1G3TNaCEr/view?usp=drivesdk"
+           target="_blank" rel="noopener" class="btn-resume">
+          <i class="fas fa-file-alt"></i>
+          <span>View Resume</span>
+          <i class="fas fa-arrow-right btn-resume-arrow"></i>
+        </a>
+      </div>
+
+      <!-- Photo panel with frame-support decorative circles -->
+      <div class="about-photo-panel">
+        <div class="about-img-wrapper">
+          <div class="about-photo-frame">
+            <img src="assets/profile2.jpeg" alt="Shrutika There portrait" />
+          </div>
+          <div class="about-photo-deco about-photo-deco--tl"></div>
+          <div class="about-photo-deco about-photo-deco--br"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ SKILLS SECTION ═══════════ -->
+<section id="skills" class="section skills-section">
+  <div class="container">
+    <header class="section-header">
+      <h2 class="sec-title">
+        <span class="sec-emoji">💻</span>
+        <span class="sec-navy">Skills &amp;</span>&ensp;<span class="sec-orange">Abilities</span>
+      </h2>
+      <div class="sec-bar"></div>
+    </header>
+
+    <div class="skills-grid">
+
+      <div class="skill-card" data-delay="0">
+        <div class="skill-icon-wrap"><i class="fas fa-microchip"></i></div>
+        <span class="skill-label">Embedded System</span>
+      </div>
+
+      <div class="skill-card" data-delay="60">
+        <div class="skill-icon-wrap"><i class="fas fa-wave-square"></i></div>
+        <span class="skill-label">Analog &amp; Digital Electronics</span>
+      </div>
+
+      <div class="skill-card" data-delay="120">
+        <div class="skill-icon-wrap"><i class="fas fa-bolt"></i></div>
+        <span class="skill-label">Power Electronics</span>
+      </div>
+
+      <div class="skill-card" data-delay="180">
+        <div class="skill-icon-wrap"><i class="fas fa-print"></i></div>
+        <span class="skill-label">PCB Design</span>
+      </div>
+
+      <div class="skill-card" data-delay="240">
+        <div class="skill-icon-wrap"><i class="fas fa-fire-alt"></i></div>
+        <span class="skill-label">Professional Soldering</span>
+      </div>
+
+      <div class="skill-card" data-delay="300">
+        <div class="skill-icon-wrap"><i class="fas fa-wifi"></i></div>
+        <span class="skill-label">Internet of Things</span>
+      </div>
+
+      <div class="skill-card" data-delay="360">
+        <div class="skill-icon-wrap"><i class="fas fa-industry"></i></div>
+        <span class="skill-label">PLC</span>
+      </div>
+
+      <div class="skill-card" data-delay="420">
+        <div class="skill-icon-wrap"><i class="fas fa-sliders-h"></i></div>
+        <span class="skill-label">Control System</span>
+      </div>
+
+      <div class="skill-card" data-delay="480">
+        <div class="skill-icon-wrap"><i class="fas fa-square-root-alt"></i></div>
+        <span class="skill-label">Multisim</span>
+      </div>
+
+      <div class="skill-card" data-delay="540">
+        <div class="skill-icon-wrap"><i class="fas fa-cube"></i></div>
+        <span class="skill-label">Tinkercad</span>
+      </div>
+
+      <div class="skill-card" data-delay="600">
+        <div class="skill-icon-wrap"><i class="fas fa-memory"></i></div>
+        <span class="skill-label">Microcontrollers (Arduino, 8051)</span>
+      </div>
+
+      <div class="skill-card" data-delay="660">
+        <div class="skill-icon-wrap"><i class="fas fa-chart-line"></i></div>
+        <span class="skill-label">MATLAB Simulink</span>
+      </div>
+
+      <div class="skill-card" data-delay="720">
+        <div class="skill-icon-wrap"><i class="fas fa-robot"></i></div>
+        <span class="skill-label">ChatGPT / AI Tools</span>
+      </div>
+
+      <div class="skill-card" data-delay="780">
+        <div class="skill-icon-wrap"><i class="fas fa-tools"></i></div>
+        <span class="skill-label">Circuit Debugging &amp; Testing</span>
+      </div>
+
+      <div class="skill-card" data-delay="840">
+        <div class="skill-icon-wrap"><i class="fab fa-microsoft"></i></div>
+        <span class="skill-label">VS Code</span>
+      </div>
+
+      <div class="skill-card" data-delay="900">
+        <div class="skill-icon-wrap"><i class="fas fa-plug"></i></div>
+        <span class="skill-label">Interfacing Sensors &amp; Actuators</span>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ PROJECTS SECTION ═══════════ -->
+<section id="projects" class="section projects-section">
+  <div class="container">
+    <header class="section-header">
+      <h2 class="sec-title">
+        <span class="sec-emoji">🚀</span>
+        <span class="sec-proj-light">Projects</span>&ensp;<span class="sec-orange">Made</span>
+      </h2>
+      <div class="sec-bar sec-bar--light"></div>
+    </header>
+
+    <div class="projects-grid">
+
+      <article class="proj-card">
+        <div class="proj-img-wrap">
+          <img src="assets/project1.jpeg" alt="Advanced Medicine Dispenser" onerror="this.style.display='none'" />
+          <div class="proj-img-overlay"><i class="fas fa-pills"></i></div>
+          <span class="proj-badge">IoT · Health</span>
+        </div>
+        <div class="proj-body">
+          <h3 class="proj-title">💊 Advanced Medicine Dispenser &amp; Health Monitor</h3>
+          <p class="proj-desc">An automated IoT system using Arduino UNO and Servo motors to dispense medication at scheduled intervals, integrated with a Heartbeat sensor for real-time health monitoring.</p>
+          <div class="proj-tags">
+            <span class="ptag">Arduino UNO</span><span class="ptag">Servo Motor</span>
+            <span class="ptag">Heartbeat Sensor</span><span class="ptag">IoT</span>
+          </div>
+        </div>
+        <div class="proj-footer">
+          <a href="#" class="proj-link">View Project <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </article>
+
+      <article class="proj-card">
+        <div class="proj-img-wrap">
+          <img src="assets/project2.jpeg" alt="Real-Time Pulse Rate Monitor" onerror="this.style.display='none'" />
+          <div class="proj-img-overlay"><i class="fas fa-heartbeat"></i></div>
+          <span class="proj-badge">Embedded · Health</span>
+        </div>
+        <div class="proj-body">
+          <h3 class="proj-title">💓 Real-Time Pulse Rate Monitor</h3>
+          <p class="proj-desc">A portable health tracking device using Arduino Nano to capture and display live pulse rate data with high accuracy on an OLED display.</p>
+          <div class="proj-tags">
+            <span class="ptag">Arduino Nano</span><span class="ptag">Pulse Sensor</span>
+            <span class="ptag">OLED Display</span><span class="ptag">C/C++</span>
+          </div>
+        </div>
+        <div class="proj-footer">
+          <a href="#" class="proj-link">View Project <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </article>
+
+      <article class="proj-card">
+        <div class="proj-img-wrap">
+          <img src="assets/project3.jpeg" alt="Temperature Control DC Fan" onerror="this.style.display='none'" />
+          <div class="proj-img-overlay"><i class="fas fa-fan"></i></div>
+          <span class="proj-badge">Analog Electronics</span>
+        </div>
+        <div class="proj-body">
+          <h3 class="proj-title">❄️ Temperature Control DC Fan (OPamp IC741)</h3>
+          <p class="proj-desc">An analog electronics project using an Op-Amp IC741 as a comparator and a temperature sensor to automatically regulate DC fan speed based on ambient temperature.</p>
+          <div class="proj-tags">
+            <span class="ptag">IC 741 Op-Amp</span><span class="ptag">Temp Sensor</span>
+            <span class="ptag">DC Motor</span><span class="ptag">Comparator</span>
+          </div>
+        </div>
+        <div class="proj-footer">
+          <a href="#" class="proj-link">View Project <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </article>
+
+      <article class="proj-card">
+        <div class="proj-img-wrap">
+          <img src="assets/project4.jpeg" alt="Digital Decade Counter" onerror="this.style.display='none'" />
+          <div class="proj-img-overlay"><i class="fas fa-hashtag"></i></div>
+          <span class="proj-badge">Digital Electronics</span>
+        </div>
+        <div class="proj-body">
+          <h3 class="proj-title">🔢 Digital Decade Counter</h3>
+          <p class="proj-desc">A sequential logic circuit using IC 7490 and a 7-Segment display to count from 0–9, demonstrating fundamental digital electronics and combinational logic design.</p>
+          <div class="proj-tags">
+            <span class="ptag">IC 7490</span><span class="ptag">7-Segment Display</span>
+            <span class="ptag">Logic Gates</span><span class="ptag">Multisim</span>
+          </div>
+        </div>
+        <div class="proj-footer">
+          <a href="#" class="proj-link">View Project <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </article>
+
+      <article class="proj-card">
+        <div class="proj-img-wrap">
+          <img src="assets/project5.jpeg" alt="AC Light Dimmer Controller" onerror="this.style.display='none'" />
+          <div class="proj-img-overlay"><i class="fas fa-lightbulb"></i></div>
+          <span class="proj-badge">Power Electronics</span>
+        </div>
+        <div class="proj-body">
+          <h3 class="proj-title">💡 AC Light Dimmer Controller</h3>
+          <p class="proj-desc">A power electronics project utilizing PWM signals and TRIAC/DIAC components to smoothly control AC bulb intensity via an Arduino microcontroller.</p>
+          <div class="proj-tags">
+            <span class="ptag">Arduino</span><span class="ptag">PWM</span>
+            <span class="ptag">TRIAC/DIAC</span><span class="ptag">AC Control</span>
+          </div>
+        </div>
+        <div class="proj-footer">
+          <a href="#" class="proj-link">View Project <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </article>
+
+      <article class="proj-card">
+        <div class="proj-img-wrap">
+          <img src="assets/project6.jpeg" alt="Personal Portfolio Website" onerror="this.style.display='none'" />
+          <div class="proj-img-overlay"><i class="fas fa-globe"></i></div>
+          <span class="proj-badge">Web Dev</span>
+        </div>
+        <div class="proj-body">
+          <h3 class="proj-title">💻 Personal Portfolio Website</h3>
+          <p class="proj-desc">A fully responsive, modern professional portfolio built with HTML, CSS &amp; JavaScript — featuring smooth scroll, animated sections, and a contact form.</p>
+          <div class="proj-tags">
+            <span class="ptag">HTML5</span><span class="ptag">CSS3</span>
+            <span class="ptag">JavaScript</span><span class="ptag">Responsive</span>
+          </div>
+        </div>
+        <div class="proj-footer">
+          <a href="#" class="proj-link">View Project <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ EXPERIENCE SECTION ═══════════ -->
+<section id="experience" class="section exp-section">
+  <div class="container">
+    <header class="section-header">
+      <h2 class="sec-title">
+        <span class="sec-emoji">💼</span>
+        <span class="sec-navy">Experience</span>
+      </h2>
+      <div class="sec-bar"></div>
+    </header>
+
+    <div class="exp-timeline" id="expList">
+
+      <!-- Timeline center line -->
+      <div class="exp-center-line"></div>
+
+      <!-- Entry 1 — LEFT ✅ -->
+      <div class="exp-item exp-item--left">
+        <div class="exp-card">
+          <div class="exp-card-header">
+            <span class="exp-date-badge">
+              <i class="fas fa-briefcase"></i> June 2023 – July 2023
+            </span>
+          </div>
+          <h3 class="exp-role"><i class="fas fa-industry"></i> Electronics Internship</h3>
+          <p class="exp-org">Bright Electronics Pvt. Ltd., Arvi</p>
+          <p class="exp-desc">Worked on electronics projects, circuit design, and developed professional soldering skills in a real-world industrial environment.</p>
+          <div class="exp-tags">
+            <span class="etag">Circuit Design</span>
+            <span class="etag">Soldering</span>
+            <span class="etag">Electronics</span>
+          </div>
+        </div>
+        <div class="exp-dot">
+          <i class="fas fa-briefcase"></i>
+        </div>
+        <div class="exp-spacer"></div>
+      </div>
+
+      <!-- Entry 2 — RIGHT ✅ -->
+      <div class="exp-item exp-item--right">
+        <div class="exp-spacer"></div>
+        <div class="exp-dot">
+          <i class="fas fa-trophy"></i>
+        </div>
+        <div class="exp-card">
+          <div class="exp-card-header">
+            <span class="exp-date-badge">
+              <i class="fas fa-trophy"></i> May 2024
+            </span>
+          </div>
+          <h3 class="exp-role"><i class="fas fa-award"></i> State Level Technical Paper Presentation</h3>
+          <p class="exp-org">Government Polytechnic, Arvi</p>
+          <p class="exp-desc">Awarded at the State Level Technical Paper Presentation — recognized for innovation and research excellence at a government-level competition.</p>
+          <div class="exp-tags">
+            <span class="etag">Award</span>
+            <span class="etag">Research</span>
+            <span class="etag">State Level</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Entry 3 — LEFT ✅ -->
+      <div class="exp-item exp-item--left">
+        <div class="exp-card">
+          <div class="exp-card-header">
+            <span class="exp-date-badge">
+              <i class="fas fa-users"></i> 2023 – 2024
+            </span>
+          </div>
+          <h3 class="exp-role"><i class="fas fa-star"></i> Chairman — IETE Forum</h3>
+          <p class="exp-org">Government Polytechnic, Arvi</p>
+          <p class="exp-desc">Led the IETE Forum, organizing technical seminars, workshops, and inter-college events to foster student growth during the final year.</p>
+          <div class="exp-tags">
+            <span class="etag">Leadership</span>
+            <span class="etag">Event Management</span>
+            <span class="etag">IETE</span>
+          </div>
+        </div>
+        <div class="exp-dot">
+          <i class="fas fa-users"></i>
+        </div>
+        <div class="exp-spacer"></div>
+      </div>
+
+      <!-- Entry 4 — RIGHT ✅ -->
+      <div class="exp-item exp-item--right">
+        <div class="exp-spacer"></div>
+        <div class="exp-dot">
+          <i class="fas fa-certificate"></i>
+        </div>
+        <div class="exp-card">
+          <div class="exp-card-header">
+            <span class="exp-date-badge">
+              <i class="fas fa-certificate"></i> 10-Day Workshop
+            </span>
+          </div>
+          <h3 class="exp-role"><i class="fas fa-bolt"></i> Embedded Systems &amp; IoT Internship</h3>
+          <p class="exp-org">MDB Electrosoft Pvt. Ltd., Amravati</p>
+          <p class="exp-desc">Completed intensive 10-day certified workshops covering Embedded Systems and IoT — hands-on experience with microcontrollers and connected devices.</p>
+          <div class="exp-tags">
+            <span class="etag">Embedded Systems</span>
+            <span class="etag">IoT</span>
+            <span class="etag">Certified</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Entry 5 — LEFT ✅ -->
+      <div class="exp-item exp-item--left">
+        <div class="exp-card exp-card--present">
+          <div class="exp-card-header">
+            <span class="exp-date-badge exp-date-badge--present">
+              <i class="fas fa-circle"></i> Present
+            </span>
+          </div>
+          <h3 class="exp-role"><i class="fas fa-globe"></i> Web Development Internship</h3>
+          <p class="exp-org">MDB Electrosoft Pvt. Ltd., Amravati</p>
+          <p class="exp-desc">Currently building a professional portfolio website and learning modern web development tools — focused on responsive design and UI/UX best practices.</p>
+          <div class="exp-tags">
+            <span class="etag">HTML/CSS</span>
+            <span class="etag">JavaScript</span>
+            <span class="etag">Portfolio Dev</span>
+          </div>
+        </div>
+        <div class="exp-dot exp-dot--present">
+          <i class="fas fa-code"></i>
+        </div>
+        <div class="exp-spacer"></div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<!-- ═══════════ EDUCATION SECTION ═══════════ -->
+<section id="education" class="section edu-section">
+  <div class="container">
+    <header class="section-header">
+      <h2 class="sec-title">
+        <span class="sec-emoji">🎓</span>
+        <span class="sec-navy">My</span>&ensp;<span class="sec-blue">Education</span>
+      </h2>
+      <p class="edu-subtitle">Education is not the learning of facts, but the training of the mind to think.</p>
+      <div class="sec-bar"></div>
+    </header>
+
+    <!-- Card 1 — Bachelor's -->
+    <div class="edu-card">
+      <div class="edu-card-photo">
+        <img src="assets/gcenagpur.jpeg" alt="Government College of Engineering, Nagpur"
+             onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+        <div class="edu-photo-fallback" style="display:none;">
+          <i class="fas fa-university"></i>
+          <span>GCE Nagpur</span>
+        </div>
+      </div>
+      <div class="edu-card-body">
+        <div class="edu-card-top">
+          <span class="edu-icon-badge edu-icon-badge--blue">
+            <i class="fas fa-graduation-cap"></i>
+          </span>
+          <span class="edu-pill edu-pill--blue">2024 – 2027 &nbsp;·&nbsp; Pursuing</span>
+        </div>
+        <h3 class="edu-degree">Bachelor of Engineering in Electronics &amp; Telecommunication Engineering</h3>
+        <p class="edu-college">
+          <span class="edu-college-highlight">Government College of Engineering Nagpur</span>
+          <span class="edu-college-code"> | GCEN</span>
+        </p>
+        <p class="edu-year">
+          <i class="fas fa-calendar-check"></i>
+          2024–2027 &nbsp;<span class="edu-status edu-status--pursuing">Pursuing</span>
+        </p>
+        <ul class="edu-points">
+          <li><i class="fas fa-check-circle"></i>Embedded Systems, IoT, Power Electronics, Control Systems</li>
+          <li><i class="fas fa-check-circle"></i>Active participant in technical workshops and college events</li>
+          <li><i class="fas fa-check-circle"></i>Pursuing Lateral Entry after Diploma completion</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Card 2 — Diploma -->
+    <div class="edu-card">
+      <div class="edu-card-photo">
+        <img src="assets/gparvi.png" alt="Government Polytechnic, Arvi"
+             onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+        <div class="edu-photo-fallback" style="display:none;">
+          <i class="fas fa-university"></i>
+          <span>Govt. Polytechnic Arvi</span>
+        </div>
+      </div>
+      <div class="edu-card-body">
+        <div class="edu-card-top">
+          <span class="edu-icon-badge edu-icon-badge--teal">
+            <i class="fas fa-university"></i>
+          </span>
+          <span class="edu-pill edu-pill--teal">2021 – 2024 &nbsp;·&nbsp; Completed</span>
+        </div>
+        <h3 class="edu-degree">Diploma in Electronics &amp; Communication Engineering</h3>
+        <p class="edu-college">
+          <span class="edu-college-highlight">Government Polytechnic Arvi</span>
+          <span class="edu-college-code"> | GPA</span>
+        </p>
+        <p class="edu-year">
+          <i class="fas fa-calendar-check"></i>
+          2021–2024 &nbsp;<span class="edu-status edu-status--completed">Completed</span>
+        </p>
+        <p class="edu-distinction">
+          <i class="fas fa-medal"></i>
+          <strong>90.71% (First Class with Distinction)</strong>
+        </p>
+        <ul class="edu-points">
+          <li><i class="fas fa-check-circle"></i>Circuit Design, PCB, Microcontrollers, Communication Systems</li>
+          <li><i class="fas fa-check-circle"></i>Chairman of IETE Forum — organized 10+ technical events</li>
+          <li><i class="fas fa-check-circle"></i>State Level Paper Presentation Award recipient</li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ═══════════ CONTACT SECTION ═══════════ -->
+<section id="contact" class="section contact-section">
+  <div class="container">
+    <header class="section-header">
+      <h2 class="sec-title">
+        <span class="sec-emoji">🎧</span>
+        <span class="sec-navy">Get In</span>&ensp;<span class="sec-blue">Touch</span>
+      </h2>
+      <div class="sec-bar"></div>
+    </header>
+
+    <div class="contact-wrap">
+      <div class="contact-left">
+        <svg viewBox="0 0 320 280" xmlns="http://www.w3.org/2000/svg" class="contact-svg" aria-hidden="true">
+          <rect x="20" y="195" width="280" height="14" rx="4" fill="#c5cae9"/>
+          <rect x="50"  y="209" width="10" height="50" rx="3" fill="#9fa8da"/>
+          <rect x="260" y="209" width="10" height="50" rx="3" fill="#9fa8da"/>
+          <rect x="132" y="175" width="10" height="22" rx="2" fill="#5c6bc0"/>
+          <rect x="112" y="194" width="50" height="4"  rx="2" fill="#5c6bc0"/>
+          <rect x="80"  y="105" width="115" height="72" rx="8" fill="#3949ab"/>
+          <rect x="85"  y="110" width="105" height="58" rx="5" fill="#e8eaf6"/>
+          <rect x="92"  y="118" width="60" height="5"  rx="2" fill="#5c6bc0"/>
+          <rect x="92"  y="128" width="90" height="3"  rx="2" fill="#9fa8da"/>
+          <rect x="92"  y="136" width="75" height="3"  rx="2" fill="#9fa8da"/>
+          <rect x="92"  y="144" width="82" height="3"  rx="2" fill="#9fa8da"/>
+          <rect x="92"  y="152" width="55" height="3"  rx="2" fill="#9fa8da"/>
+          <circle cx="165" cy="135" r="12" fill="#4caf50" opacity=".85"/>
+          <polyline points="159,135 163,140 172,128" stroke="white" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+          <ellipse cx="220" cy="210" rx="30" ry="14" fill="#9fa8da" opacity=".3"/>
+          <rect x="200" y="160" width="40" height="55" rx="12" fill="#3f51b5"/>
+          <circle cx="220" cy="148" r="20" fill="#ffcc80"/>
+          <path d="M200 148 Q200 125 220 123 Q240 125 240 148" fill="#5d4037"/>
+          <path d="M200 175 Q185 185 170 192" stroke="#ffcc80" stroke-width="8" fill="none" stroke-linecap="round"/>
+          <rect x="140" y="190" width="55" height="10" rx="3" fill="#b0bec5"/>
+          <rect x="60" y="58" width="90" height="34" rx="8" fill="#5c6bc0"/>
+          <polygon points="90,92 100,92 95,102" fill="#5c6bc0"/>
+          <text x="105" y="78"  text-anchor="middle" fill="white"   font-size="9"   font-family="sans-serif" font-weight="600">Let's Connect!</text>
+          <text x="105" y="90"  text-anchor="middle" fill="#c5cae9" font-size="7.5" font-family="sans-serif">I'd love to hear from you</text>
+          <circle cx="38"  cy="80"  r="3" fill="#ffd54f"/>
+          <circle cx="290" cy="110" r="3" fill="#f48fb1"/>
+          <circle cx="28"  cy="150" r="2" fill="#80cbc4"/>
+          <circle cx="295" cy="170" r="2" fill="#ffd54f"/>
+        </svg>
+        <div class="contact-info-chips">
+          <div class="contact-chip"><i class="fas fa-envelope"></i> shrutikathere42@gmail.com</div>
+          <div class="contact-chip"><i class="fas fa-phone"></i> +91 9970930846</div>
+          <div class="contact-chip"><i class="fas fa-map-marker-alt"></i> Nagpur, Maharashtra</div>
+        </div>
+      </div>
+
+      <div class="contact-right">
+        <h3 class="contact-form-title">Send Me a Message</h3>
+        <form id="contactForm" class="contact-form" novalidate>
+          <div class="cf-field">
+            <span class="cf-icon"><i class="fas fa-user"></i></span>
+            <input type="text"  name="name"    placeholder="Your Name"    required class="cf-input" />
+          </div>
+          <div class="cf-field">
+            <span class="cf-icon"><i class="fas fa-envelope"></i></span>
+            <input type="email" name="email"   placeholder="Your Email"   required class="cf-input" />
+          </div>
+          <div class="cf-field">
+            <span class="cf-icon"><i class="fas fa-phone"></i></span>
+            <input type="tel"   name="phone"   placeholder="Your Phone"            class="cf-input" />
+          </div>
+          <div class="cf-field cf-field--ta">
+            <span class="cf-icon cf-icon--top"><i class="fas fa-comment-dots"></i></span>
+            <textarea name="message" placeholder="Your Message" rows="4" required class="cf-input cf-ta"></textarea>
+          </div>
+          <div class="cf-submit-row">
+            <button type="submit" class="cf-submit-btn">
+              Submit &nbsp;<i class="fas fa-paper-plane"></i>
+            </button>
+          </div>
+          <p id="formStatus" class="form-status-msg" aria-live="polite"></p>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ═══════════ FOOTER ═══════════ -->
+<footer class="site-footer">
+  <div class="container footer-inner-grid">
+    <div class="footer-col">
+      <p class="footer-brand">Shrutika's Portfolio</p>
+      <div class="footer-brand-bar"></div>
+      <p class="footer-about-txt">Thank you for visiting my portfolio. I'm an Electronics &amp; Telecommunication Engineering student passionate about Embedded Systems &amp; IoT.</p>
+      <p class="footer-tagline">Keep Rising 🚀</p>
+    </div>
+    <div class="footer-col">
+      <h4 class="footer-col-heading">Quick Links</h4>
+      <div class="footer-brand-bar"></div>
+      <ul class="footer-nav">
+        <li><a href="#home"       class="footer-nav-link"><i class="fas fa-chevron-right"></i>Home</a></li>
+        <li><a href="#about"      class="footer-nav-link"><i class="fas fa-chevron-right"></i>About</a></li>
+        <li><a href="#skills"     class="footer-nav-link"><i class="fas fa-chevron-right"></i>Skills</a></li>
+        <li><a href="#projects"   class="footer-nav-link"><i class="fas fa-chevron-right"></i>Projects</a></li>
+        <li><a href="#experience" class="footer-nav-link"><i class="fas fa-chevron-right"></i>Experience</a></li>
+        <li><a href="#education"  class="footer-nav-link"><i class="fas fa-chevron-right"></i>Education</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4 class="footer-col-heading">Contact Info</h4>
+      <div class="footer-brand-bar"></div>
+      <ul class="footer-contact">
+        <li><i class="fas fa-phone"></i><span>+91 9970930846</span></li>
+        <li><i class="fas fa-envelope"></i><a href="mailto:shrutikathere42@gmail.com">shrutikathere42@gmail.com</a></li>
+        <li><i class="fas fa-map-marker-alt"></i><span>Nagpur, Maharashtra, India</span></li>
+      </ul>
+      <div class="footer-socials">
+        <a href="https://www.linkedin.com/in/shrutika-there-8576453b7" target="_blank" class="footer-soc" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://github.com/shrutikathere05"                   target="_blank" class="footer-soc" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        <a href="mailto:shrutikathere42@gmail.com"                                     class="footer-soc" aria-label="Email"><i class="fas fa-envelope"></i></a>
+        <a href="https://t.me/shrutikathere"                           target="_blank" class="footer-soc" aria-label="Telegram"><i class="fab fa-telegram-plane"></i></a>
+        <a href="https://www.instagram.com/shru.jainverse"             target="_blank" class="footer-soc" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-divider"></div>
+  <p class="footer-copy">
+    Designed with <span style="color:#ef4444">♥</span> by
+    <span class="footer-copy-name">Shrutika There</span>
+    &nbsp;·&nbsp; &copy; <span id="year"></span>
+  </p>
+</footer>
+
+<button class="back-to-top" id="backTop" aria-label="Back to top">
+  <i class="fas fa-arrow-up"></i>
+</button>
+
+<script src="script.js"></script>
+</body>
+</html>
